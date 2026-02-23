@@ -326,3 +326,18 @@ footer {
         margin-left: 15px;
     }
 }
+/* Page wrapper for smooth fade-out */
+.page-wrapper {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Fade-in on load */
+.page-wrapper.loaded {
+    opacity: 1;
+}
+
+/* Fade-out before navigation */
+.page-wrapper.fade-out {
+    opacity: 0;
+}
