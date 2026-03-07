@@ -186,8 +186,6 @@ nav a:hover::after {
     }
 }
 
-}
-
 /* =====================
    ABOUT SECTION
 ===================== */
@@ -341,3 +339,146 @@ footer {
 .page-wrapper.fade-out {
     opacity: 0;
 }
+
+
+/* Ensure the page wrapper takes full height */
+.page-wrapper {
+    min-height: 100vh;
+}
+
+
+.contact-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contact-left,
+.contact-right {
+    flex: 1;
+}
+
+/* CONTACT FORM */
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* INPUT + TEXTAREA */
+.contact-right form input,
+.contact-right form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #2a2a2a;
+    background: #0e0e0e;
+    color: #eaeaea;
+    font-size: 0.95rem;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+/* INPUT FOCUS EFFECT */
+.contact-right form input:focus,
+.contact-right form textarea:focus {
+    border-color: #6ea8fe;
+}
+
+/* BUTTON */
+.contact-right form button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #6ea8fe;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+/* BUTTON HOVER */
+.contact-right form button:hover {
+    background: #4d8df5;
+}
+
+/* =====================
+   CONTACT LEFT (INFO + LINKS)
+===================== */
+.contact-left {
+    padding: 30px;
+    background: #111; /* Dark background to match the form */
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-left h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #eaeaea;
+}
+
+.contact-left p {
+    font-size: 1rem;
+    color: #cfcfcf;
+}
+
+.contact-left p a {
+    color: #6ea8fe;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.contact-left p a:hover {
+    color: #4d8df5;
+    text-decoration: underline;
+}
+
+/* LINKS */
+.contact-left .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-left .links a {
+    display: flex;
+    align-items: center;
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.contact-left .links a i {
+    margin-right: 8px; /* space between icon and text */
+    font-size: 1.2rem;
+}
+
+/* Hover effect */
+.contact-left .links a:hover {
+    color: #6ea8fe;
+    transform: translateX(4px);
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+    .contact-grid {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+}
+
+
