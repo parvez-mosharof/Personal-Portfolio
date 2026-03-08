@@ -51,6 +51,7 @@ $feedbackColor = '';
                     <button type="submit" name="send">Send</button>
 
                 </form>
+
                 <?php
                 if (isset($_POST['send'])) {
                     $name = htmlspecialchars($_POST['name']);
@@ -60,19 +61,18 @@ $feedbackColor = '';
                     $mail = new PHPMailer(true);
 
                     try {
-                        //Server settings
+                        // Server settings for SendGrid
                         $mail->isSMTP();
-                        $mail->Host       = 'smtp.gmail.com';
+                        $mail->Host       = 'smtp.sendgrid.net';
                         $mail->SMTPAuth   = true;
-
-                        $mail->Username = getenv('SMTP_USER'); // Gmail
-                        $mail->Password = getenv('SMTP_PASS'); // App password
-
+                        $mail->Username   = 'apikey'; // literally 'apikey' for SendGrid
+                        $mail->Password   = getenv('SENDGRID_API_KEY'); // use your Render env var
                         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-                        $mail->Port = 587;
-                        //Recipients
-                        $mail->setFrom('parvezmosharofinfo@gmail.com', 'Portfolio Contact Form');
-                        $mail->addAddress('parvezmosharofinfo@gmail.com');
+                        $mail->Port       = 587;
+
+                        // Recipients
+                        $mail->setFrom(getenv('SENDGRID_FROM'), 'Portfolio Contact Form');
+                        $mail->addAddress(getenv('SENDGRID_FROM'));
 
                         // Content
                         $mail->isHTML(false);
