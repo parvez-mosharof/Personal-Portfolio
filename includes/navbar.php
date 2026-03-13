@@ -1,6 +1,8 @@
 <header class="navbar">
     <div class="container"> 
-        <h1 class="logo">Parvez Mosharof</h1>
+        <a href="index.php" style="text-decoration: none; color: inherit;">
+            <h1 class="logo">Parvez Mosharof</h1>
+        </a>
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
