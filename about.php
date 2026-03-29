@@ -4,12 +4,14 @@
 <div class="page-wrapper">
     <section class="section">
         <div class="container about">
-            <img src="assets/me.jpeg" alt="Parvez Mosharof">
+            <img src="assets/engfo.jpg" alt="Parvez Mosharof">
             <div>
                 <h3>About Me</h3>
                 <p>
-                    I am a Junior Laravel Developer with practical experience in building structured web applications
-                    using PHP, Laravel, MySQL, and Blade. I focus on MVC architecture, Eloquent ORM, and clean backend logic.
+                    
+
+EngFormation is an online English learning platform where I create and share practical lessons to improve speaking, grammar, and real-life communication skills.
+Focused on helping learners build confidence through simple and effective content.
                 </p>
             </div>
         </div>

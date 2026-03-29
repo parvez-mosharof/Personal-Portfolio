@@ -23,14 +23,14 @@ $feedbackColor = '';
             <div class="contact-left">
                 <h3>Contact Us:</h3>
 
-                <p>E-mail: <a href="mailto:parvezmosharofinfo@gmail.com">parvezmosharofinfo@gmail.com</a></p>
+                <p>E-mail: <a href="mailto:engformationbd@gmail.com">EngFormationbd@gmail.com</a></p>
 
                 <div class="links">
-                    <a href="https://github.com/parvez-mosharof/" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i> GitHub
+                    <a href="https://facebook.com/engformationbd/" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i> Facebook
                     </a>
-                    <a href="https://www.linkedin.com/in/parvezmosharof123" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i> LinkedIn
+                    <a href="https://www.instagram.com/engformationbd" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i> Instagram
                     </a>
                 </div>
             </div>

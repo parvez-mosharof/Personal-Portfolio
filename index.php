@@ -7,23 +7,29 @@
             <div class="container hero-grid">
 
                 <div class="hero-text">
-                    <h2>Junior Laravel Developer</h2>
-                    <p>Building clean, database-driven web applications with PHP & Laravel.</p>
+                    <h2>Online English Learning Made Easy. Learn from Anywhere.</h2>
+                    <p>You can improve your English skills through structured online courses, interactive exercises, and multimedia resources that cover reading, writing, listening, speaking, grammar, and vocabulary.</p>
                 </div>
 
                 <div class="hero-visual">
-                    <div class="code-box">
-    <pre>
-    <span class="comment">// Laravel Controller</span>
-    <span class="keyword">public function</span> index() {
-        <span class="keyword">return</span> view(
-            <span class="string">'students.index'</span>
-        );
-    }
-    </pre>
-    <span class="cursor">|</span>
-                    </div>
-                </div>
+    <div class="code-box">
+<pre>
+<span class="comment">// EngFormation Lesson</span>
+
+<span class="keyword">Lesson:</span> Daily English Practice
+
+<span class="keyword">Sentence:</span>
+<span class="string">"I practice English every day."</span>
+
+<span class="keyword">Tip:</span>
+<span class="string">Use present simple for daily habits.</span>
+
+<span class="keyword">Goal:</span>
+<span class="string">Speak confidently in real life.</span>
+</pre>
+        <span class="cursor">|</span>
+    </div>
+</div>
 
             </div>
         </section>

@@ -5,16 +5,11 @@
 
         <section class="section light">
             <div class="container">
-                <h3>Technical Skills</h3>
+                <h3>Services</h3>
                 <ul class="skills">
-                    <li>PHP</li>
-                    <li>Laravel</li>
-                    <li>MySQL</li>
-                    <li>Blade</li>
-                    <li>HTML & CSS</li>
-                    <li>JavaScript (Basic)</li>
-                    <li>MVC Architecture</li>
-                    <li>REST APIs</li>
+                    <li><p style="font-weight: bold;">ONE TO ONE SESSION:<br><br></p>Audio and video to practise your listening and speaking skills. Online exercises to help you understanding of grammar.</li>
+                    <li><p style="font-weight: bold;">PERSONAL TUTORING:<br><br></p>Model texts for all types of writing tasks.Work on your reading skills to read more quickly and understand more.</li>
+                    <li><p style="font-weight: bold;">SELF STUDY COURSES:<br><br></p>Clear and simple grammar explanations to help you revise and practise different grammar points.</li>
                 </ul>
             </div>
         </section>
